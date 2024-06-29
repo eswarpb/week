@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lake_mapourika_NZ.jpeg/396px-Lake_mapourika_NZ.jpeg");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin:50px -15px  ;
+  transform: translate(-50%, -50%);
+}
+
+.day {
+  position: absolute;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.day1 {
+  top: 15%;
+  left: 40%;
+  background-color: #fa0b17;
+  color: white;
+}
+
+.day2 {
+  top: 40%;
+  left: 1%;
+  background-color: #FF69B4;
+  color: white;
+}
+
+.day3 {
+  top: 40%;
+  left: 75%;
+  background-color: #f606ce;
+  color: black;
+}
+
+.day4 {
+  top: 60%;
+  background-color: #3d92d7;
+  color: white;
+}
+
+.day5 {
+  top: 60%;
+  left: 77%;
+  background-color: #240080;
+  color: white;
+}
+
+.day6 {
+  top: 80%;
+  left: 67%;
+  background-color: #9fe90b;
+  color: black;
+}
+
+.day7 {
+  top: 80%;
+  left:5%;
+  background-color: #DC143C;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Weeks Chat:</h1>
+
+<div class="container">
+  <div class="circle"></div>
+  <div class="day day1">Sunday</div>
+  <div class="day day3">Monday</div>
+  <div class="day day5">Tuesday</div>
+  <div class="day day6">Wednesday</div>
+  <div class="day day7">Thursday</div>
+  <div class="day day4">Friday</div>
+  <div class="day day2">Saturday</div>
+</div>
+</body>
+</html>
